@@ -6,17 +6,42 @@
   </head>
   <body>
     <header>
-      <div class="banner">
-        <div class="topnav" id="myTopnav">
-          <a href="#home" class="active">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" class="icon" onclick="menu()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-      </div>
+        <nav class="flexbox-menu">
+          <img class="flexbox-menu__title" src="../assets/landing/fakturor-logo-menu.png">
+          <ul class="flexbox-menu__container">
+            <img class="flexbox-menu__item logo-menu" src="../assets/landing/fakturor-logo-menu.png">
+            <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">CIFRAS</a></li>
+            <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">TARIFAS</a></li>
+            <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">REGISTRO</a></li>
+            <li class="flexbox-menu__item"><a class="flexbox-menu__link link-activate" href="#">INICIAR SESIÓN</a></li>
+          </ul>
+        </nav>
+        <main class="main" id="main">
+          <div class="menu-bar"><span class="fa fa-reorder menu-bar__button" id="menu-button"></span></div>
+          <div class="main__container">
+            <div class="banner">
+              <div class="login col-md-4 col-md-push-7 col-sm-4 col-sm-push-8">
+                <p class="text-login">Detectar a tiempo a un proveedor EFOS te permitirá evitar las consecuencias legales
+                  previstas en el artículo 69-B del Código Fiscal de la Federación.</p>
+                <form>
+                  <input type="text" class="text-field col-md-8 col-xs-12" placeholder="RFC">
+                  <br>
+                  <br>
+                  <input type="password" class="text-field col-md-8 col-xs-12" placeholder="contraseña">
+                  <br>
+                  <br>
+                  <a href="recovery-password" class="recover-pass">Olvidé mi contraseña</a>
+                  <br>
+                  <br>
+                  <div class="div-button-login col-xs-12">
+                    <button class="button-login">ACCEDER</button>
+                    <button class="button-signup">REGISTRAR</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </main>
     </header>
   </body>
 </html>

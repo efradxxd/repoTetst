@@ -1,7 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
-html, body {
-    min-height: 100vh;
-    height: auto;
-    margin: 0;
-    background-color: #01243D;
-  }
+@font-face {
+  font-family: gravity;
+  src: url(./assets/Gravity-Regular.otf);
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+  background-color: #01243D;
+}
+
+.text-field {
+  font-family: "gravity";
+  height: 26px;
+  border: 1px solid #fff;
+  box-shadow: inset 0 0px 0px #ddd;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 12px 10px!important;
+  box-sizing: border-box;
+}
