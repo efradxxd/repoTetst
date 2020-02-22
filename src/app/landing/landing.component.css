@@ -75,6 +75,63 @@
     padding: 10px 10px;
 }
 
+/*-------- Section Seguridad ---------*/
+.seguridad{
+    background-color: #0090D4;
+    padding: 6% 8%;
+    color: #fff;
+    font-family: "gravity";
+}
+
+.title-seguridad{
+    font-size: 41pt;
+    text-align: right!important;
+}
+
+.text-seguridad{
+    font-size: 20pt;
+    text-align: right!important;
+}
+
+.img-center{
+    margin-left: 40px;
+    margin-top: 28px;
+}
+
+@media(max-width: 988px){
+    .title-seguridad{
+        font-size: 41pt;
+        text-align: center!important;
+    }
+    
+    .text-seguridad{
+        margin-top: 10px;;
+        font-size: 20pt;
+        text-align: center!important;
+    }
+    .img-center{
+        margin-top: 20px;
+        margin-left: 12%;
+    }
+}
+
+@media(max-width: 620px){
+    .title-seguridad{
+        font-size: 30pt;
+        text-align: center!important;
+    }
+    
+    .text-seguridad{
+        margin-top: 10px;;
+        font-size: 15pt;
+        text-align: center!important;
+    }
+    .img-center{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
 /*-------- MENU RESPONSIVE --------*/
 * {
   margin: 0;
