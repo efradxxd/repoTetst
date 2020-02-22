@@ -18,6 +18,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  z-index: 20!important;
+  position: relative;
 }
 
 /*-------- Login -----------*/
@@ -130,6 +132,132 @@
         margin-top: 20px;
         margin-left: 0px;
     }
+}
+
+.button-signup-sticky{
+    height: auto;
+    width: 18%;
+    font-family: "gravity";
+    background-color: #fff;
+    color: #0090D4;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-top: 35px;
+    border: 2px solid #0090D4;
+    border-radius: 4px;
+    padding: 10px 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 41%;
+    z-index: 10!important;
+}
+
+/*-------- Section proveedores ----------*/
+.proveedores{
+  background-image: url('../../assets/landing/bg-proveedores.png');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.container-proveedores{
+  height: 100vh;
+  background: linear-gradient(to right, rgba(1, 36, 59,0), rgb(1, 36, 59));
+}
+
+.container-text{
+  padding-left: 30px;
+}
+
+.img-shield{
+  margin-top: 30vh;
+}
+
+.title-proveedores{
+  font-size: 40pt;
+  font-family: "gravity";
+  color: #0090D4;
+  margin-top: 18vh;
+}
+
+.text-proveedores{
+  font-size: 18pt;
+  font-family: "gravity";
+  color: #fff;
+}
+
+@media(max-width: 992px){
+  .container-text{
+    padding-left: 0px;
+  }
+
+  .img-shield{
+    height: 20vh;
+    width: auto;
+    margin-top: 40vh;
+  }
+
+  .title-proveedores{
+    font-size: 25pt;
+    font-family: "gravity";
+    color: #0090D4;
+    margin-top: 30vh;
+    padding-right: 90px;
+  }
+
+  .text-proveedores{
+    font-size: 12pt;
+    font-family: "gravity";
+    color: #fff;
+    padding-right: 90px;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width: 768px){
+  .title-proveedores{
+    font-size: 25pt;
+    font-family: "gravity";
+    color: #0090D4;
+    margin-top: 30vh;
+    padding-right: 20px;
+  }
+
+  .text-proveedores{
+    font-size: 12pt;
+    font-family: "gravity";
+    color: #fff;
+    padding-right: 20px;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width: 415px){
+  .img-shield{
+    height: 40vh;
+    margin-left: 8vh;
+    width: auto;
+    margin-top: 10vh;
+  }
+
+  .title-proveedores{
+    font-size: 18pt;
+    font-family: "gravity";
+    color: #0090D4;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-proveedores{
+    font-size: 11pt;
+    font-family: "gravity";
+    color: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 15px;
+  }
 }
 
 /*-------- MENU RESPONSIVE --------*/
