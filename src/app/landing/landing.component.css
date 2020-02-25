@@ -128,10 +128,28 @@
         font-size: 15pt;
         text-align: center!important;
     }
+
     .img-center{
         margin-top: 20px;
         margin-left: 0px;
     }
+
+    .button-signup-sticky{
+      height: auto;
+      width: 50%!important;
+      font-family: "gravity";
+      background-color: #fff;
+      color: #0090D4;
+      font-size: 18px;
+      margin-top: 35px;
+      border: 2px solid #0090D4;
+      border-radius: 4px;
+      padding: 10px 10px;
+      position: fixed;
+      bottom: 20px;
+      left: 25%!important;
+      z-index: 10!important;
+  }
 }
 
 .button-signup-sticky{
@@ -141,7 +159,6 @@
     background-color: #fff;
     color: #0090D4;
     font-size: 18px;
-    margin-left: 2%;
     margin-top: 35px;
     border: 2px solid #0090D4;
     border-radius: 4px;
@@ -258,6 +275,315 @@
     padding-left: 30px;
     margin-top: 15px;
   }
+}
+
+/* Section cifras */
+.cifras{
+  background-color: #fff;
+  padding: 5% 10%;
+}
+
+.title-cifras{
+  color: #707070;
+  font-size: 32pt;
+  font-family: "gravity";
+  text-align: center;
+}
+
+.icon-favorables{
+  padding: 5% 4%;
+}
+
+.text-favorables{
+  font-size: 12pt!important;
+  font-family: "gravity";
+  text-align: center;
+  margin-top: 23px;
+  background-color: #00812C;
+  color: #fff;
+  padding: 10px 3px;
+  border-radius: 4px;
+}
+
+.title-favorables{
+  color: #00812C;
+  font-size: 15pt;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon-presuntos{
+  padding: 5% 4%;
+}
+
+.text-presuntos{
+  font-size: 12pt!important;
+  font-family: "gravity";
+  text-align: center;
+  margin-top: 23px;
+  background-color: #E14908;
+  color: #fff;
+  padding: 10px 3px;
+  border-radius: 4px;
+}
+
+.title-presuntos{
+  color: #E14908;
+  font-size: 15pt;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon-desvirtuados{
+  padding: 5% 4%;
+}
+
+.text-desvirtuados{
+  font-size: 12pt!important;
+  font-family: "gravity";
+  text-align: center;
+  margin-top: 23px;
+  background-color: #F08300;
+  color: #fff;
+  padding: 10px 3px;
+  border-radius: 4px;
+}
+
+.title-desvirtuados{
+  color: #F08300;
+  font-size: 15pt;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon-definitivos{
+  padding: 5% 4%;
+}
+
+.text-definitivos{
+  font-size: 12pt!important;
+  font-family: "gravity";
+  text-align: center;
+  margin-top: 23px;
+  background-color: #AB001A;
+  color: #fff;
+  padding: 10px 3px;
+  border-radius: 4px;
+}
+
+.title-definitivos{
+  color: #AB001A;
+  font-size: 15pt;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Section Planes y tarifas */
+.planes{
+  padding: 5% 10%;
+  background-color: #00446b;
+}
+
+.title-planes{
+  color: #fff;
+  font-family: "gravity";
+  text-align: center;
+  font-size: 32pt;
+  margin-bottom: 60px;
+}
+
+.container-aux{
+  padding: 35px 35px;
+  margin-bottom: 100px;
+}
+
+.container-plan{
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 12px 12px;
+}
+
+.sub-plan-basico{
+  border: 3px solid #00812C;
+  border-radius: 20px;
+}
+
+.sub-plan-premium{
+  border: 3px solid #F08300;
+  border-radius: 20px;
+}
+
+.sub-plan-corp{
+  border: 3px solid #AB001A;
+  border-radius: 20px;
+}
+
+.img-plan{
+  padding: 15px 28%;
+}
+
+.text-plan-basico{
+  color: #00812C;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "gravity";
+  font-size: 11pt;
+}
+
+.value-plan-basico{
+  color: #00812C;
+  text-align: center;
+  text-align: center;
+  margin-top: 7px;
+  font-family: "gravity";
+}
+
+.button-basico{
+  font-family: "gravity";
+  background-color: #00812C;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 2%;
+  border: 0px solid #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 20px 0;
+}
+
+.text-plan-premium{
+  color: #F08300;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "gravity";
+  font-size: 11pt;
+}
+
+.value-plan-premium{
+  color: #F08300;
+  text-align: center;
+  text-align: center;
+  margin-top: 7px;
+  font-family: "gravity";
+}
+
+.button-premium{
+  font-family: "gravity";
+  background-color: #F08300;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 2%;
+  border: 0px solid #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 20px 0;
+}
+
+.text-plan-corp{
+  color: #AB001A;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "gravity";
+  font-size: 11pt;
+}
+
+.value-plan-corp{
+  color: #AB001A;
+  text-align: center;
+  text-align: center;
+  margin-top: 7px;
+  font-family: "gravity";
+}
+
+.button-corp{
+  font-family: "gravity";
+  background-color: #AB001A;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 2%;
+  border: 0px solid #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 20px 0;
+}
+
+/*-------- Section FAKTUROR ----------*/
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+strong.blue {
+  color: #4f8cbd;
+}
+
+.fakturor{
+  background-color: #00446b;
+  font-family: "gravity";
+  padding-top: 80px!important;
+  z-index: 11;
+  margin-bottom: 15%;
+}
+
+.photo {
+  float: left;
+  width: 80px;
+  margin-right: 20px;
+  padding-left: 30px;
+}
+
+.description {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f1f9fa;
+}
+
+.description p{
+  padding-right: 30px;
+}
+
+/*-------- Footer ----------*/
+.footer{
+  background-color: #00446b;
+  padding: 5vh 10vh;
+  position: relative;
+  z-index: 11;
+}
+
+.text-footer{
+  color: #fff;
+  font-family: "gravity";
+}
+
+.links-footer{
+  margin-bottom: 40px;
+}
+
+.link-footer{
+  color: #fff;
+  font-family: "gravity";
+  list-style: none;
+}
+
+.link-footer a{
+  color: #fff;
+  font-family: "gravity";
+  font-size: 12pt;
+}
+
+.link-footer a:hover{
+  color: #0090D4;
+}
+
+.copy-footer{
+  color: #fff;
+  font-family: "gravity";
+  font-size: 12pt;
+  text-align: right;
+  margin-top: 25px;
 }
 
 /*-------- MENU RESPONSIVE --------*/
@@ -384,7 +710,7 @@ body.active {
   position: absolute;
   width: 100%;
   min-height: 100vh;
-  background-color: #f2f2f2;
+  background-color: #00446b;
   transition: transform 0.75s cubic-bezier(0.89, -0.01, 0.19, 1.84);
 }
 .main.active {

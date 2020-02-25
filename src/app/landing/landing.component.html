@@ -1,75 +1,226 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <header>
-        <nav class="flexbox-menu">
-          <img class="flexbox-menu__title" src="../assets/landing/fakturor-logo-menu.png">
-          <ul class="flexbox-menu__container">
-            <img class="flexbox-menu__item logo-menu" src="../assets/landing/fakturor-logo-menu.png">
-            <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">CIFRAS</a></li>
-            <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">TARIFAS</a></li>
-            <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">REGISTRO</a></li>
-            <li class="flexbox-menu__item"><a class="flexbox-menu__link link-activate" href="#">INICIAR SESIÓN</a></li>
-          </ul>
-        </nav>
-        <main class="main" id="main">
-          <div class="menu-bar"><span class="fa fa-reorder menu-bar__button" id="menu-button"></span></div>
-          <div class="main__container">
-            <!-- Section banner -->
-            <div class="banner">
-              <div class="login col-md-4 col-md-push-7 col-sm-4 col-sm-push-8">
-                <p class="text-login">Detectar a tiempo a un proveedor EFOS te permitirá evitar las consecuencias legales
-                  previstas en el artículo 69-B del Código Fiscal de la Federación.</p>
-                <form>
-                  <input type="text" class="text-field col-md-8 col-xs-12" placeholder="RFC">
-                  <br>
-                  <br>
-                  <input type="password" class="text-field col-md-8 col-xs-12" placeholder="contraseña">
-                  <br>
-                  <br>
-                  <a href="recovery-password" class="recover-pass">Olvidé mi contraseña</a>
-                  <br>
-                  <br>
-                  <div class="div-button-login col-xs-12">
-                    <button class="button-login">ACCEDER</button>
-                    <button class="button-signup">REGISTRAR</button>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <header>
+    <nav class="flexbox-menu">
+      <img class="flexbox-menu__title" src="../assets/landing/fakturor-logo-menu.png">
+      <ul class="flexbox-menu__container">
+        <img class="flexbox-menu__item logo-menu" src="../assets/landing/fakturor-logo-menu.png">
+        <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">CIFRAS</a></li>
+        <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">TARIFAS</a></li>
+        <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">REGISTRO</a></li>
+        <li class="flexbox-menu__item"><a class="flexbox-menu__link link-activate" href="#">INICIAR SESIÓN</a></li>
+      </ul>
+    </nav>
+    <main class="main" id="main">
+      <div class="menu-bar"><span class="fa fa-reorder menu-bar__button" id="menu-button"></span></div>
+      <div class="main__container">
+        <!-- Section banner -->
+        <div class="banner">
+          <div class="login col-md-4 col-md-push-7 col-sm-4 col-sm-push-8">
+            <p class="text-login">Detectar a tiempo a un proveedor EFOS te permitirá evitar las consecuencias legales
+              previstas en el artículo 69-B del Código Fiscal de la Federación.</p>
+            <form>
+              <input type="text" class="text-field col-md-8 col-xs-12" placeholder="RFC">
+              <br>
+              <br>
+              <input type="password" class="text-field col-md-8 col-xs-12" placeholder="contraseña">
+              <br>
+              <br>
+              <a href="recovery-password" class="recover-pass">Olvidé mi contraseña</a>
+              <br>
+              <br>
+              <div class="div-button-login col-xs-12">
+                <button class="button-login">ACCEDER</button>
+                <button class="button-signup">REGISTRAR</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Section seguridad -->
+        <div class="seguridad col-xs-12">
+          <div class="seguridad col-lg-5 col-lg-push-1 col-xs-12 col-md-6">
+            <h1 class="title-seguridad">SEGURIDAD</h1>
+            <p class="text-seguridad">Accede y consulta el estatus de tus proveedores en cualquier momento y desde
+              cualquier dispositivo</p>
+          </div>
+          <div class="img-center col-md-5 col-xs-12">
+            <img src="../assets/landing/center.png" class="img-responsive" alt="">
+          </div>
+          <button class="button-signup-sticky">REGISTRARME</button>
+        </div>
+        <!-- Section proveedores -->
+        <div class="proveedores col-xs-12">
+          <div class="container-proveedores col-xs-12 col-sm-9 col-sm-push-3">
+            <img src="./assets/landing/shield.png" alt="" class="img-responsive img-shield col-xs-12 col-md-3">
+            <div class="container-text col-md-9">
+              <h1 class="title-proveedores col-xs-12 col-md-9">¿Conoces a tus proveedores?</h1>
+              <p class="text-proveedores col-xs-12 col-md-8">Una empresa que factura operaciones simuladas y/o
+                Inexistentes recibe el nombre de
+                EFOS. Si uno o varios de tus proveedores han sido detectados y enlistados por el SAT como EFOS, deberás
+                de dejar
+                sin efecto fiscal todas las facturas emitidas por dicho proveedor y pagar el impuesto que resulte o
+                afrontar
+                créditos fiscales y conecuencias penales.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Section cifras -->
+        <div class="cifras col-xs-12">
+          <div class="col-xs-12">
+            <h1 class="title-cifras">CIFRAS</h1>
+            <div class="col-md-12">
+              <div class="col-xs-8 col-xs-push-2 col-md-3 col-md-push-0 icon-favorables">
+                <img src="./assets/landing/icon-favorables.png" alt="" class="img-responsive">
+                <h2 class="text-favorables">2,000 registros</h2>
+                <h3 class="title-favorables">FAVORABLES</h3>
+              </div>
+              <div class="col-xs-8 col-xs-push-2 col-md-3 col-md-push-0 icon-presuntos">
+                <img src="./assets/landing/icon-presuntos.png" alt="" class="img-responsive">
+                <h2 class="text-presuntos">2,000 registros</h2>
+                <h3 class="title-presuntos">PRESUNTOS</h3>
+              </div>
+              <div class="col-xs-8 col-xs-push-2 col-md-3 col-md-push-0 icon-desvirtuados">
+                <img src="./assets/landing/icon-desvirtuados.png" alt="" class="img-responsive">
+                <h2 class="text-desvirtuados">2,000 registros</h2>
+                <h3 class="title-desvirtuados">DESVITUADOS</h3>
+              </div>
+              <div class="col-xs-8 col-xs-push-2 col-md-3 col-md-push-0 icon-definitivos">
+                <img src="./assets/landing/icon-definitivos.png" alt="" class="img-responsive">
+                <h2 class="text-definitivos">2,000 registros</h2>
+                <h3 class="title-definitivos">DEFINITIVOS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Section planes y tarifas -->
+        <div class="planes col-xs-12">
+          <h1 class="title-planes">PLANES Y TARIFAS</h1>
+          <div class="col-xs-12">
+            <div class="col-md-4 container-aux">
+              <div class="container-plan">
+                <div class="sub-plan-basico">
+                  <img src="./assets/landing/icon-basico.png" alt="" class="img-responsive img-plan">
+                  <h3 class="text-plan-basico">Tarifa inicial</h3>
+                  <h3 class="value-plan-basico">$2,999.00</h3>
+                  <h3 class="text-plan-basico">Incluye</h3>
+                  <h3 class="value-plan-basico">1 Usuario</h3>
+                  <h3 class="text-plan-basico">$349.00 usuario extra</h3>
+                  <h3 class="value-plan-basico">2,500 registros</h3>
+                  <h3 class="text-plan-basico">$699.00 registro extra</h3>
+                  <h3 class="value-plan-basico">1 correo alerta</h3>
+                  <h3 class="text-plan-basico">$199.00 correo extra</h3>
+                  <div class="text-center">
+                    <button class="button-basico">Comprar</button>
                   </div>
-                </form>
-              </div>
-            </div>
-            <!-- Section seguridad -->
-            <div class="seguridad col-xs-12">
-              <div class="seguridad col-lg-5 col-lg-push-1 col-xs-12 col-md-6">
-                <h1 class="title-seguridad">SEGURIDAD</h1>
-                <p class="text-seguridad">Accede y consulta el estatus de tus proveedores en cualquier momento y desde cualquier dispositivo</p>
-              </div>
-              <div class="img-center col-md-5 col-xs-12">
-                <img src="../assets/landing/center.png" class="img-responsive" alt="">
-              </div>
-              <button class="button-signup-sticky">REGISTRARME</button>
-            </div>
-            <!-- Section proveedores -->
-            <div class="proveedores col-xs-12">
-              <div class="container-proveedores col-xs-12 col-sm-9 col-sm-push-3">
-                <img src="./assets/landing/shield.png" alt="" class="img-responsive img-shield col-xs-12 col-md-3">
-                <div class="container-text col-md-9">
-                  <h1 class="title-proveedores col-xs-12 col-md-9">¿Conoces a tus proveedores?</h1>
-                  <p class="text-proveedores col-xs-12 col-md-8">Una empresa que factura operaciones simuladas y/o Inexistentes recibe el nombre de 
-                    EFOS. Si uno o varios de tus proveedores han sido detectados y enlistados por el SAT como EFOS, deberás de dejar
-                    sin efecto fiscal todas las facturas emitidas por dicho proveedor y pagar el impuesto que resulte o afrontar
-                    créditos fiscales y conecuencias penales.
-                  </p>
                 </div>
               </div>
             </div>
-            <!-- Section cifras -->
-            
+            <div class="col-md-4 container-aux">
+              <div class="container-plan">
+                <div class="sub-plan-premium">
+                  <img src="./assets/landing/icon-premium.png" alt="" class="img-responsive img-plan">
+                  <h3 class="text-plan-premium">Tarifa inicial</h3>
+                  <h3 class="value-plan-premium">$5,999.00</h3>
+                  <h3 class="text-plan-premium">Incluye</h3>
+                  <h3 class="value-plan-premium">3 Usuarios</h3>
+                  <h3 class="text-plan-premium">$349.00 usuario extra</h3>
+                  <h3 class="value-plan-premium">6,000 registros</h3>
+                  <h3 class="text-plan-premium">$699.00 registro extra</h3>
+                  <h3 class="value-plan-premium">3 correos alerta</h3>
+                  <h3 class="text-plan-premium">$199.00 correo extra</h3>
+                  <div class="text-center">
+                    <button class="button-premium">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 container-aux">
+              <div class="container-plan">
+                <div class="sub-plan-corp">
+                  <img src="./assets/landing/icon-corp.png" alt="" class="img-responsive img-plan">
+                  <h3 class="text-plan-corp">Tarifa inicial</h3>
+                  <h3 class="value-plan-corp">$7,499.00</h3>
+                  <h3 class="text-plan-corp">Incluye</h3>
+                  <h3 class="value-plan-corp">5 Usuarios</h3>
+                  <h3 class="text-plan-corp">$299.00 usuario extra</h3>
+                  <h3 class="value-plan-corp">Registros ILIMITADOS</h3>
+                  <h3 class="text-plan-corp">$699.00 registro extra</h3>
+                  <h3 class="value-plan-corp">5 correos alerta</h3>
+                  <h3 class="text-plan-corp">$149.00 correo extra</h3>
+                  <div class="text-center">
+                    <button class="button-corp">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </main>
-    </header>
-  </body>
+        </div>
+        <!-- Section FAKTUROR -->
+        <div class="fakturor">
+          <div class="contenedor">
+            <h1>CON <strong class="blue"> FAKTUROR </strong></h1>
+            <div class="description">
+              <div class="text1">
+                <p>
+                  <img src="./assets/landing/icon-lupa.png" alt="logolupa" id="Lupa" class="photo">
+                  Registra el R.F.C. y el Nombre de tus proveedores y deja que nuestro sistema
+                  monitoreé a diario por ti.
+                </p>
+              </div>
+              <p>
+                <img src="./assets/landing/icon-lupa.png" alt="logolupa" id="Lupa" class="photo">
+                Recibe alertas en tu correo y en la app, en el caso de que alguno de tus
+                proveedores se a señalado como un EFOS o sea reportado como no localizado.
+              </p>
+              <p>
+                <img src="./assets/landing/icon-lupa.png" alt="logolupa" id="Lupa" class="photo">
+                Entérate y recibe alerta de los que proveedores han sido notificados como
+                EFOS vía estrados. Así mismo, descarga la versión PDF de los oficios
+                partiulares que se notifican.
+              </p>
+              <p>
+                <img src="./assets/landing/icon-lupa.png" alt="logolupa" id="Lupa" class="photo">
+                Accede de la forma fácil y rápido a todas las listas de EFOS publicadas por el
+                SAT.
+              </p>
+              <p>
+                <img src="./assets/landing/icon-lupa.png" alt="logolupa" id="Lupa" class="photo">
+                Busca de manera individual a cualquiera de tus proveedores en todas las listas
+                de EFOS, con tan solo su nombre o RFC.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <footer class="col-xs-12 footer">
+          <div class="col-md-3">
+            <p class="text-footer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+          <div class="col-md-3 col-md-push-1">
+            <ul class="links-footer">
+              <li class="link-footer"><a class="" href="#">ACERCA DE</a></li>
+              <li class="link-footer"><a class="" href="#">AVISO DE PRIVACIDAD</a></li>
+              <li class="link-footer"><a class="" href="#">TERMINOS Y CONDICIONES</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-md-push-3">
+            <img src="../assets/landing/fakturor-logo-menu.png" alt="" class="img-footer img-responsive">
+            <h3 class="copy-footer">COPYRIGHT 2020 &copy;</h3>
+          </div>
+        </footer>
+       </div><!--finish div main -->
+    </main>
+  </header>
+</body>
+
 </html>
