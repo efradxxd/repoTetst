@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LandingComponent implements OnInit {
 
   constructor() { }
-
+  modal = false;
   ngOnInit(): void {
 
     //effect menu hide/show
@@ -19,6 +19,11 @@ export class LandingComponent implements OnInit {
       document.body.classList.toggle("active");
     });
 
+  }
+
+  showModal(){
+    this.modal = !this.modal;
+    return (this.modal);
   }
 
 }

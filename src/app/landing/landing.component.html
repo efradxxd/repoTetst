@@ -12,12 +12,13 @@
       <img class="flexbox-menu__title" src="../assets/landing/fakturor-logo-menu.png">
       <ul class="flexbox-menu__container">
         <img class="flexbox-menu__item logo-menu hidden-xs" src="../assets/landing/fakturor-logo-menu.png">
-        <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">CIFRAS</a></li>
+        <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#" target="_self">CIFRAS</a></li>
         <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">TARIFAS</a></li>
-        <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#">REGISTRO</a></li>
+        <li class="flexbox-menu__item"><a class="flexbox-menu__link" href="#openModal">REGISTRO</a></li>
         <li class="flexbox-menu__item"><a class="flexbox-menu__link link-activate" href="#">INICIAR SESIÓN</a></li>
       </ul>
     </nav>
+    <!-- Modal Structure -->
     <main class="main" id="main">
       <div class="menu-bar"><span class="fa fa-reorder menu-bar__button" id="menu-button"></span></div>
       <div class="main__container">
@@ -53,7 +54,28 @@
           <div class="img-center col-md-5 col-xs-12">
             <img src="../assets/landing/center.png" class="img-responsive" alt="">
           </div>
-          <button class="button-signup-sticky">REGISTRARME</button>
+          <button class="button-signup-sticky" data-toggle="modal" data-target="#exampleModalCenter">REGISTRARME</button>
+        </div>
+        <!-- Modal registro -->
+        <div class="modal zoomIn" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- Section proveedores -->
         <div class="proveedores col-xs-12">
@@ -203,7 +225,8 @@
         <footer class="col-xs-12 footer">
           <div class="col-md-3">
             <p class="text-footer">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua
             </p>
           </div>
           <div class="col-md-3 col-md-push-1">
@@ -218,7 +241,8 @@
             <h3 class="copy-footer">COPYRIGHT 2020 &copy;</h3>
           </div>
         </footer>
-       </div><!--finish div main -->
+      </div>
+      <!--finish div main -->
     </main>
   </header>
 </body>
