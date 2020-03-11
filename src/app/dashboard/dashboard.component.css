@@ -1,0 +1,64 @@
+@font-face {
+    font-family: gravity;
+    src: url(../../assets/Gravity-Regular.otf);
+}
+  
+.dash-content{
+    height: 85vh;
+    padding: 35px 35px;
+}
+
+.footer-dash{
+    height: 8vh;
+    width: 100%;
+    background-color: #00446B;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    padding-top: 1.6%;
+}
+
+.link-footer{
+    color: #fff;
+    font-family: gravity;
+    font-size: 9.5pt;
+    margin: 0 20px;
+}
+
+.logo-footer{
+    width: 130px;
+    float:right;
+    margin-right: 20px;
+}
+
+@media (max-width: 550px){
+    .link-footer{
+        color: #fff;
+        font-family: gravity;
+        font-size: 7.5pt;
+        margin-left: 20px;
+        margin-right: 8px;
+    }
+    
+    .logo-footer{
+        width: 110px;
+        float:right;
+        margin-right: 20px;
+    }
+  }
+
+  @media (max-width: 434px){
+    .link-footer{
+        color: #fff;
+        font-family: gravity;
+        font-size: 5.5pt;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    
+    .logo-footer{
+        width: 100px;
+        float:right;
+        margin-right: 20px;
+    }
+  }
