@@ -5,6 +5,12 @@ import { LandingComponent } from './landing/landing.component';
 import { TestingComponent } from './testing/testing.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashcontainerComponent } from './dashcontainer/dashcontainer.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { NoticiasComponent } from './noticias/noticias.component';
+import { ProveedoresComponent } from './proveedores/proveedores.component';
+import { CalendarioComponent } from './calendario/calendario.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { NotificacionesComponent } from './notificaciones/notificaciones.component';
 
 
 const routes: Routes = [
@@ -27,12 +33,32 @@ const routes: Routes = [
     children:[
       {
         path: '',
-        component: DashcontainerComponent, 
+        component: InicioComponent, 
         outlet:'dashboard'
       },
       {
-        path: 'prueba',
-        component: TestingComponent,
+        path: 'noticias',
+        component: NoticiasComponent,
+        outlet:'dashboard'
+      },
+      {
+        path: 'proveedores',
+        component: ProveedoresComponent,
+        outlet:'dashboard'
+      },
+      {
+        path: 'calendario',
+        component: CalendarioComponent,
+        outlet:'dashboard'
+      },
+      {
+        path: 'usuarios',
+        component: UsuariosComponent,
+        outlet:'dashboard'
+      },
+      {
+        path: 'notificaciones',
+        component: NotificacionesComponent,
         outlet:'dashboard'
       }
       // {

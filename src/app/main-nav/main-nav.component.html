@@ -6,12 +6,12 @@
     <mat-toolbar><img class="logo-main" src="../assets/landing/fakturor-logo-menu.png"></mat-toolbar>
     <mat-nav-list>
       <a mat-list-item [routerLink]="[{ outlets: { dashboard:[''] } }]"><mat-icon>home</mat-icon>&nbsp;&nbsp;Inicio</a>
-      <a mat-list-item [routerLink]="[{ outlets: { dashboard:[''] } }]"><mat-icon>public</mat-icon>&nbsp;&nbsp;Noticias</a>
-      <a mat-list-item [routerLink]="[{ outlets: { dashboard:['prueba'] } }]"><mat-icon>assignment</mat-icon>&nbsp;&nbsp;Proveedores</a>
+      <a mat-list-item [routerLink]="[{ outlets: { dashboard:['noticias'] } }]"><mat-icon>public</mat-icon>&nbsp;&nbsp;Noticias</a>
+      <a mat-list-item [routerLink]="[{ outlets: { dashboard:['proveedores'] } }]"><mat-icon>assignment</mat-icon>&nbsp;&nbsp;Proveedores</a>
       <!-- <a mat-list-item [routerLink]="[{ outlets: { dashboard:['streams'], details:['parties'] } }]">Link</a> -->
-      <a mat-list-item [routerLink]="[{ outlets: { dashboard:['prueba'] } }]"><mat-icon>calendar_today</mat-icon>&nbsp;&nbsp;Calendario</a>
-      <a mat-list-item [routerLink]="[{ outlets: { dashboard:['prueba'] } }]"><mat-icon>people_outline</mat-icon>&nbsp;&nbsp;Usuarios</a>
-      <a mat-list-item [routerLink]="[{ outlets: { dashboard:['prueba'] } }]"><mat-icon>notifications_active</mat-icon>&nbsp;&nbsp;Notificaciones</a>
+      <a mat-list-item [routerLink]="[{ outlets: { dashboard:['calendario'] } }]"><mat-icon>calendar_today</mat-icon>&nbsp;&nbsp;Calendario</a>
+      <a mat-list-item [routerLink]="[{ outlets: { dashboard:['usuarios'] } }]"><mat-icon>people_outline</mat-icon>&nbsp;&nbsp;Usuarios</a>
+      <a mat-list-item [routerLink]="[{ outlets: { dashboard:['notificaciones'] } }]"><mat-icon>notifications_active</mat-icon>&nbsp;&nbsp;Notificaciones</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -26,7 +26,7 @@
       </button>
       <!-- <img class="logo-main" src="../assets/landing/fakturor-logo-menu.png"> -->
       <input type="text" name="search-dashboard" class="search-dashboard" placeholder="Buscar proveedor">
-      <button class="button-search-dashboard">Buscar</button>
+      <button mat-button class="button-search-dashboard">Buscar</button>
     </mat-toolbar>
     <ng-content></ng-content>
     <!-- Add Content Here -->

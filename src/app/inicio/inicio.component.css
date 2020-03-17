@@ -1,0 +1,350 @@
+@font-face {
+    font-family: gravity;
+    src: url(../../assets/Gravity-Regular.otf);
+  }
+
+.container-stats{
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.tu-ausencia{
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-left: 25px;
+    height: 100vh;
+    background-color: #DFF2FA;
+}
+
+.title-inicio{
+    color: #00446B;
+    font-family: gravity;
+    font-size: 20pt;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.subtitle-info{
+    color: #535353;
+    font-family: gravity;
+    font-size: 12pt;
+    margin: 18px 0;
+    padding: 0 0;
+}
+
+.container-stats-general{
+    padding: 0 30px!important;
+}
+
+.icon-favorables{
+    padding: 0 0!important;
+}
+
+.text-favorables{
+    font-size: 10pt!important;
+    font-family: "gravity";
+    text-align: center;
+    background-color: #00812C;
+    color: #fff;
+    padding: 10px 3px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+.title-favorables{
+    color: #00812C;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 0!important;
+}
+
+.text-presuntos{
+    font-size: 10pt!important;
+    font-family: "gravity";
+    text-align: center;
+    background-color: #E14908;
+    color: #fff;
+    padding: 10px 3px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+  
+.title-presuntos{
+    color: #E14908;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 0!important;
+}
+
+.text-desvirtuados{
+    font-size: 10pt!important;
+    font-family: "gravity";
+    text-align: center;
+    background-color: #F08300;
+    color: #fff;
+    padding: 10px 3px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+  
+.title-desvirtuados{
+    color: #F08300;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 0!important;
+}
+
+.text-definitivos{
+    font-size: 10pt!important;
+    font-family: "gravity";
+    text-align: center;
+    background-color: #AB001A;
+    color: #fff;
+    padding: 10px 3px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+  
+.title-definitivos{
+    color: #AB001A;
+    font-size: 13pt;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 0!important;
+}
+
+/* Grafica comparativa */
+.text-grafica-comp{
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* bar favorables */
+.title-graph-favorables{
+    color: #00812C;
+    font-size: 10pt;
+    font-family: gravity;
+    padding-top: 3px;
+}
+
+.cantainer-value-graph{
+    border-left: 6px solid #535353;
+    padding-top: 13px;
+}
+
+.text-value-graph-favorables{
+    color: #00812C;
+    font-size: 9pt;
+    font-family: gravity;
+}
+
+::ng-deep .bar-favorables .mat-progress-bar-fill::after {
+    background-color: #00812C;
+    height: 10px!important;
+}
+
+::ng-deep .bar-favorables .mat-progress-bar-buffer{
+    background: #E4E8EB;
+    height: 10px!important;
+}
+
+::ng-deep .bar-favorables{
+    border-radius: 2px;
+    height: 10px!important;
+}
+
+/* bar presuntos */
+.title-graph-presuntos{
+    color: #E14908;
+    font-size: 10pt;
+    font-family: gravity;
+    padding-top: 3px;
+}
+
+.text-value-graph-presuntos{
+    color: #E14908;
+    font-size: 9pt;
+    font-family: gravity;
+}
+
+::ng-deep .bar-presuntos .mat-progress-bar-fill::after {
+    background-color: #E14908;
+    height: 10px!important;
+}
+
+::ng-deep .bar-presuntos .mat-progress-bar-buffer{
+    background: #E4E8EB;
+    height: 10px!important;
+}
+
+::ng-deep .bar-presuntos{
+    border-radius: 2px;
+    height: 10px!important;
+}
+
+/* bar desvirtuados */
+.title-graph-desvirtuados{
+    color: #F08300;
+    font-size: 10pt;
+    font-family: gravity;
+    padding-top: 2px;
+}
+
+.text-value-graph-desvirtuados{
+    color: #F08300;
+    font-size: 9pt;
+    font-family: gravity;
+}
+
+::ng-deep .bar-desvirtuados .mat-progress-bar-fill::after {
+    background-color: #F08300;
+    height: 10px!important;
+}
+
+::ng-deep .bar-desvirtuados .mat-progress-bar-buffer{
+    background: #E4E8EB;
+    height: 10px!important;
+}
+
+::ng-deep .bar-desvirtuados{
+    border-radius: 2px;
+    height: 10px!important;
+}
+
+/* bar definitivos */
+.title-graph-definitivos{
+    color: #AB001A;
+    font-size: 10pt;
+    font-family: gravity;
+    padding-top: 1px;
+}
+
+.text-value-graph-definitivos{
+    color: #AB001A;
+    font-size: 9pt;
+    font-family: gravity;
+}
+
+::ng-deep .bar-definitivos .mat-progress-bar-fill::after {
+    background-color: #AB001A;
+    height: 10px!important;
+}
+
+::ng-deep .bar-definitivos .mat-progress-bar-buffer{
+    background: #E4E8EB;
+    height: 10px!important;
+}
+
+::ng-deep .bar-definitivos{
+    border-radius: 2px;
+    height: 10px!important;
+}
+
+/* En tu tu-ausencia */
+/* favorables */
+.container-proveedores-favorables{
+    border-left: 6px solid #00812C;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.num-proveedores-favorables{
+    color: #00812C;
+    font-size: 35pt;
+    padding: 0 0!important;
+    margin-top: 0px;
+}
+
+.title-proveedores-favorables{
+    padding: 0 0!important;
+    color: #00812C;
+    font-size: 11pt;
+}
+
+.text-proveedores-favorables{
+    color: #535353;
+    padding: 0 0!important;
+    font-size: 8pt;
+}
+
+/* presuntos */
+.container-proveedores-presuntos{
+    border-left: 6px solid #E14908;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.num-proveedores-presuntos{
+    color: #E14908;
+    font-size: 35pt;
+    padding: 0 0!important;
+    margin-top: 0px;
+}
+
+.title-proveedores-presuntos{
+    padding: 0 0!important;
+    color: #E14908;
+    font-size: 11pt;
+}
+
+.text-proveedores-presuntos{
+    color: #535353;
+    padding: 0 0!important;
+    font-size: 8pt;
+}
+
+/* desvirtuados */
+.container-proveedores-desvirtuados{
+    border-left: 6px solid #F08300;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.num-proveedores-desvirtuados{
+    color: #F08300;
+    font-size: 35pt;
+    padding: 0 0!important;
+    margin-top: 0px;
+}
+
+.title-proveedores-desvirtuados{
+    padding: 0 0!important;
+    color: #F08300;
+    font-size: 11pt;
+}
+
+.text-proveedores-desvirtuados{
+    color: #535353;
+    padding: 0 0!important;
+    font-size: 8pt;
+}
+
+/* definitivos */
+.container-proveedores-definitivos{
+    border-left: 6px solid #AB001A;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.num-proveedores-definitivos{
+    color: #AB001A;
+    font-size: 35pt;
+    padding: 0 0!important;
+    margin-top: 0px;
+}
+
+.title-proveedores-definitivos{
+    padding: 0 0!important;
+    color: #AB001A;
+    font-size: 11pt;
+}
+
+.text-proveedores-definitivos{
+    color: #535353;
+    padding: 0 0!important;
+    font-size: 8pt;
+}

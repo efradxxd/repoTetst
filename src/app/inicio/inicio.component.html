@@ -1,0 +1,114 @@
+<div class="container-stats col-md-8">
+    <h1 class="title-inicio col-md-12">Estadísticas generales</h1>
+    <h2 class="subtitle-info col-md-12">Se muestran estadísticas generales actualizadas</h2>
+    <div class="container-stats-general col-lg-3 col-md-6">
+        <img src="../../assets/landing/icon-favorables.png" alt="" class="icon-favorables col-lg-12 col-md-12">
+        <h2 class="text-favorables col-lg-12 col-md-12">2,000 registros</h2>
+        <h3 class="title-favorables col-lg-12 col-md-12">FAVORABLES</h3>
+    </div>
+    <div class="container-stats-general col-lg-3 col-md-6">
+        <img src="../../assets/landing/icon-presuntos.png" alt="" class="icon-favorables col-lg-12 col-md-12">
+        <h2 class="text-presuntos col-lg-12 col-md-12">2,000 registros</h2>
+        <h3 class="title-presuntos col-lg-12 col-md-12">PRESUNTOS</h3>
+    </div>
+    <div class="container-stats-general col-lg-3 col-md-6">
+        <img src="../../assets/landing/icon-desvirtuados.png" alt="" class="icon-favorables col-lg-12 col-md-12">
+        <h2 class="text-desvirtuados col-lg-12 col-md-12">2,000 registros</h2>
+        <h3 class="title-desvirtuados col-lg-12 col-md-12">DESVIRTUADOS</h3>
+    </div>
+    <div class="container-stats-general col-lg-3 col-md-6">
+        <img src="../../assets/landing/icon-definitivos.png" alt="" class="icon-favorables col-lg-12 col-md-12">
+        <h2 class="text-definitivos col-lg-12 col-md-12">2,000 registros</h2>
+        <h3 class="title-definitivos col-lg-12 col-md-12">DEFINITIVOS</h3>
+    </div>
+    <h2 class="subtitle-info text-grafica-comp col-md-12">Gráfica comparativa de registros generales</h2>
+    <div class="col-md-12">
+        <!-- Bar favorables -->
+        <div class="col-md-3">
+            <h5 class="title-graph-favorables">FAVORABLES</h5>
+        </div>
+        <div class="cantainer-value-graph col-md-9">
+            <p class="text-value-graph-favorables"><span><mat-progress-bar
+                class="bar-favorables"
+                [color]="color"
+                [mode]="mode"
+                [value]="valueFavorables"
+                [bufferValue]="bufferValueFavorables">
+            </mat-progress-bar></span> 24%</p>
+        </div>
+        <!-- Bar Presuntos -->
+        <div class="col-md-3">
+            <h5 class="title-graph-presuntos">PRESUNTOS</h5>
+        </div>
+        <div class="cantainer-value-graph col-md-9">
+            <p class="text-value-graph-presuntos"><span><mat-progress-bar
+                class="bar-presuntos"
+                [color]="color"
+                [mode]="mode"
+                [value]="valuePresuntos"
+                [bufferValue]="bufferValuePresuntos">
+            </mat-progress-bar></span> 33%</p>
+        </div>
+        <!-- Bar Desvirtuados -->
+        <div class="col-md-3">
+            <h5 class="title-graph-desvirtuados">DESVIRTUADOS</h5>
+        </div>
+        <div class="cantainer-value-graph col-md-9">
+            <p class="text-value-graph-desvirtuados"><span><mat-progress-bar
+                class="bar-desvirtuados"
+                [color]="color"
+                [mode]="mode"
+                [value]="valueDesvirtuados"
+                [bufferValue]="bufferValueDesvirtuados">
+            </mat-progress-bar></span> 62%</p>
+        </div>
+        <!-- Bar Definitivos -->
+        <div class="col-md-3">
+            <h5 class="title-graph-definitivos">DEFINITIVOS</h5>
+        </div>
+        <div class="cantainer-value-graph col-md-9">
+            <p class="text-value-graph-definitivos"><span><mat-progress-bar
+                class="bar-definitivos"
+                [color]="color"
+                [mode]="mode"
+                [value]="valueDefinitivos"
+                [bufferValue]="bufferValueDefinitivos">
+            </mat-progress-bar></span> 41%</p>
+        </div>
+    </div>
+</div>
+<div class="tu-ausencia col-md-4">
+    <h1 class="title-inicio col-md-12">En tu ausencia</h1>
+    <!-- favorables ausencia -->
+    <div class="col-md-12">
+        <div class="container-proveedores-favorables">
+            <h1 class="num-proveedores-favorables col-md-3">2</h1>
+            <h6 class="title-proveedores-favorables">Proveedores</h6>
+            <p class="text-proveedores-favorables">han cambiado estatus favorable desde tu última conexión.</p>
+        </div>
+    </div>
+    <!-- presuntos ausencia -->
+    <div class="col-md-12">
+        <div class="container-proveedores-presuntos">
+            <h1 class="num-proveedores-presuntos col-md-3">4</h1>
+            <h6 class="title-proveedores-presuntos">Proveedores</h6>
+            <p class="text-proveedores-presuntos">han cambiado estatus favorable desde tu última conexión.</p>
+        </div>
+    </div>
+    <!-- desvirtuados ausencia -->
+    <div class="col-md-12">
+        <div class="container-proveedores-desvirtuados">
+            <h1 class="num-proveedores-desvirtuados col-md-3">18</h1>
+            <h6 class="title-proveedores-desvirtuados">Proveedores</h6>
+            <p class="text-proveedores-desvirtuados">han cambiado estatus favorable desde tu última conexión.</p>
+        </div>
+    </div>
+    <!-- definitivos ausencia -->
+    <div class="col-md-12">
+        <div class="container-proveedores-definitivos">
+            <h1 class="num-proveedores-definitivos col-md-3">7</h1>
+            <h6 class="title-proveedores-definitivos">Proveedores</h6>
+            <p class="text-proveedores-definitivos">han cambiado estatus favorable desde tu última conexión.</p>
+        </div>
+    </div>
+</div>

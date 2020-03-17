@@ -16,6 +16,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { DashcontainerComponent } from './dashcontainer/dashcontainer.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { NoticiasComponent } from './noticias/noticias.component';
+import { ProveedoresComponent } from './proveedores/proveedores.component';
+import { CalendarioComponent } from './calendario/calendario.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { NotificacionesComponent } from './notificaciones/notificaciones.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -25,7 +32,13 @@ import { DashcontainerComponent } from './dashcontainer/dashcontainer.component'
     TestingComponent,
     DashboardComponent,
     MainNavComponent,
-    DashcontainerComponent
+    DashcontainerComponent,
+    InicioComponent,
+    NoticiasComponent,
+    ProveedoresComponent,
+    CalendarioComponent,
+    UsuariosComponent,
+    NotificacionesComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +49,8 @@ import { DashcontainerComponent } from './dashcontainer/dashcontainer.component'
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
