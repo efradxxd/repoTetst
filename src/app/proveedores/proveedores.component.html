@@ -1,1 +1,23 @@
-<p>proveedores works!</p>
+<div class="dash-container">
+    <h1 class="title-primary">Proveedores</h1>
+    <h2 class="title-secondary">
+        Registra a un nuevo proveedor con el RFC de manera manual<br>
+        Puedes importar tu archivo csv para agregar en mayor cantidad, descarga nuestra plantilla.
+    </h2>
+    <button mat-button class="button-blue col-md-3 col-xs-12">REGISTRO MANUAL</button>
+    <button mat-button class="button-blue col-md-3 col-xs-12">IMPORTAR CSV</button>
+    <button mat-button class="button-green col-md-3 col-xs-12">DESCARGAR PLANTILLA</button>
+    <div class="container-text-proveedores col-md-12">
+        <h2 class="col-md-5 title-secondary">Se muestran registros de proveedores ya ingresados anteriormente con estado actual.</h2>
+        <div class="col-md-5">
+            <input type="text" name="search-proveedores" class="search-proveedores" placeholder="Buscar proveedor">
+            <button mat-button class="button-search-proveedores">Buscar</button>
+        </div>
+    </div>
+    <div class="container-list-proveedores col-md-12">
+        <app-proveedor-favorable></app-proveedor-favorable>
+        <app-proveedor-presunto></app-proveedor-presunto>
+        <app-proveedor-definitivo></app-proveedor-definitivo>
+        <app-proveedor-desvirtuado></app-proveedor-desvirtuado>
+    </div>
+</div>

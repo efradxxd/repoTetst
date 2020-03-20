@@ -1,0 +1,51 @@
+@font-face {
+    font-family: gravity;
+    src: url(../../assets/Gravity-Regular.otf);
+}
+
+.container-proveedor{
+    padding: 0 0!important;
+}
+
+.row-proveedores{
+    padding: 0px 0px!important;
+    margin-bottom: 6px;
+}
+
+.container-img{
+    background-color: #FFF4E9;
+    padding: 10px 10px;
+}
+
+.container-info{
+    padding: 17px 15px!important;
+    background-color: #FFF4E9;
+}
+
+.title-nombre{
+    color: #EF8301;
+    font-size: 12pt;
+    font-family: "gravity";
+    padding: 0 0!important;
+    margin: 0 0!important;
+}
+
+.title-rfc{
+    color: #00446B;
+    font-size: 12pt;
+    font-family: "gravity";
+    padding: 0 0!important;
+    margin: 0 0!important;
+}
+
+.text-info{
+    color: #787B79;
+    font-size: 7pt;
+    font-family: "gravity";
+    padding: 0 0!important;
+    margin: 0 0!important;
+}
+
+.text-rfc{
+    color: #00446B;
+}

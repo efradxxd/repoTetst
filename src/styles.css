@@ -25,3 +25,44 @@ body {
   box-sizing: border-box;
   color: #01243D;
 }
+
+.dash-container{
+  padding-top: 35px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-bottom: 685px;
+}
+
+.title-primary{
+  color: #00446B;
+  font-family: gravity;
+  font-size: 20pt;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.title-secondary{
+  color: #535353;
+  font-family: gravity;
+  font-size: 12pt;
+  margin: 18px 0;
+  padding: 0 0;
+}
+
+.button-blue{
+  font-family: "gravity";
+  background-color: #00446B;
+  border-radius: 6px!important;
+  padding: 6px 15px!important;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.button-green{
+  font-family: "gravity";
+  background-color: #02812D;
+  border-radius: 6px!important;
+  padding: 6px 15px!important;
+  box-sizing: border-box;
+  color: #fff;
+}

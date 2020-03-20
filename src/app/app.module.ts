@@ -23,6 +23,10 @@ import { CalendarioComponent } from './calendario/calendario.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { NotificacionesComponent } from './notificaciones/notificaciones.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { ProveedorFavorableComponent } from './proveedor-favorable/proveedor-favorable.component';
+import { ProveedorDesvirtuadoComponent } from './proveedor-desvirtuado/proveedor-desvirtuado.component';
+import { ProveedorDefinitivoComponent } from './proveedor-definitivo/proveedor-definitivo.component';
+import { ProveedorPresuntoComponent } from './proveedor-presunto/proveedor-presunto.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +42,11 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     ProveedoresComponent,
     CalendarioComponent,
     UsuariosComponent,
-    NotificacionesComponent
+    NotificacionesComponent,
+    ProveedorFavorableComponent,
+    ProveedorDesvirtuadoComponent,
+    ProveedorDefinitivoComponent,
+    ProveedorPresuntoComponent
   ],
   imports: [
     BrowserModule,
